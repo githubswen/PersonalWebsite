@@ -1,0 +1,33 @@
+body, html {
+  height: 100%;
+}
+body {
+  background-image: url("pics/sunset_steveston_1920_1080.png");
+  /* Full height */
+  height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 80%;
+}
+#about_p {
+  width: auto;
+  height: auto;
+  font-size: 20px;
+  font-family: "Lucida Console", Courier, monospace;
+  color: white;
+  text-align: center;
+}
+.centered_div {
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.avatar {
+  vertical-align: middle;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}

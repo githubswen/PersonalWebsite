@@ -1,0 +1,34 @@
+#imgtop, h1, #h1top {
+  text-align: center;
+}
+
+#h1top {
+  padding-top: 20px;
+}
+
+#imgtop {
+  padding-top: 80px;
+}
+
+div > p {
+  padding-top: 40px;
+  text-align: justify;
+  font-family: "Lucida Console", Courier, monospace;
+}
+
+body {
+  background-color: lightblue;
+}
+
+div > a a:active {
+  background-color: yellow;
+}
+div > a a:visited {
+  color: pink;
+}
+
+li {
+  font-family: "Lucida Console", Courier, monospace;
+}
+
+/*# sourceMappingURL=common.css.map */

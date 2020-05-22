@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Suryadi's Webpage</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+        <link rel="stylesheet" href="common.css">
+        <style>
+          h3{
+            margin-top:40px;
+            font-family: 'Helvetica', 'Arial', sans-serif;
+            text-align: center;
+          }
+          </style>
+    </head>
+    <body>
+      <div class="container-fluid p-3 bg-dark border">
+        <ul class="nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="android_stuff.html">Android Stuff</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Testing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="keep_me_moving.html">Keep Me Moving</a>
+          </li>
+        </ul>
+      </div>
+      <div class="container bg-white">
+        <div class="row">
+          <div class="col">
+            <h3>“Software testing proves the existence of bugs not their absence.” – Anonymous</h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <img id="imgtop" style="text-align:center" src="pics/dilbert_testing.gif">
+          </div>
+          <div class="col">
+            <p> Over the course of my career, I have done numerous type of software tests from unit test to system integration test.  I found software testing is intriguing.
+              I have met numerous software testers, and I notice these 4 characteristics define how good a software tester is:
+              attitude, analytical, curiosity and organize.</br>
+              <span style="color:blue">Attitude</span>, as software tester should have a drive to question everything, never believe in a bug free build.
+              Testers should be able to put themselves in the user perspective.  Tester should never compromise on the quality
+              and strive for the unlimited test till quality product has been achieved.</br>
+              <span style="color:blue">Analytical</span>, this is a must.  Strong analytical skill is required for capturing user requirement and strategize the test.
+              <span style="color:blue">Curiosity</span>, testers should have strong curiosity.  They should test to break.  Negative testing is as important as Positive testing.</br>
+              <span style="color:blue">Organize</span>, a well organized tester plans ahead, s/he starts early and does not wait till the build completed to start testing.  They start with user requirement early and
+              being diligent on documentation.  They can generate a complete documentation on their testing.
+            </p>
+        </div>
+        <div class="row">
+          <div class="col">
+            <p> Software tester has to be able to capture user requirement, strategize the test plan and deliver the test result.
+              One of the testing technique is by using Software Decision Table Testing.  This table provides an approach where tester
+              can see the input and the output of test cases.  This strategy will provide a comprehensive test coverage.  The example here is
+              the test cases on a mobile application to solve issue with distracted driving.  The test cases can be broken down as follows:
+            </p>
+            <ul>
+              <li><span style="font-weight:bold">Case #1</span>, car is moving and device home screen is active, application curtain screen should be active to block user- device interaction</li>
+              <li><span style="font-weight:bold">Case #2</span>, car is moving and device lock screen is already active, application will not do anything since device is already in the safe mode</li>
+              <li><span style="font-weight:bold">Case #3</span>, car is stationary and device home screen is active, user has access to the device since car is stationary</li>
+              <li><span style="font-weight:bold">Case #4</span>, car is stationary and device lock screen is already active, user has to unlock device to gain access to the device</li>
+            </ul>
+          </div>
+          <div class="col">
+            <table class="table table-striped">
+              <thead>
+                <tr>
+                  <th scope="col">Condition</th>
+                  <th scope="col">case #1</th>
+                  <th scope="col">case #2</th>
+                  <th scope="col">case #3</th>
+                  <th scope="col">case #4</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">Movement</th>
+                  <td>M</td>
+                  <td>M</td>
+                  <td>S</td>
+                  <td>S</td>
+                </tr>
+                <tr>
+                  <th scope="row">Device Screen</th>
+                  <td>H</td>
+                  <td>L</td>
+                  <td>H</td>
+                  <td>L</td>
+                </tr>
+                <tr>
+                  <th scope="row">Output</th>
+                  <td>C</td>
+                  <td>L</td>
+                  <td>H</td>
+                  <td>L</td>
+                </tr>
+              </tbody>
+              </table>
+              <ul class="list-group">
+                <li class="list-group-item active">Legend</li>
+                <li class="list-group-item">M: Moving</li>
+                <li class="list-group-item">S: Stationary</li>
+                <li class="list-group-item">H: Device Home Screen Active</li>
+                <li class="list-group-item">L: Device Lock Screen Active</li>
+                <li class="list-group-item">C: Application Curtain Screen Active</li>
+              </ul>
+            </div>
+        </div>
+      </div>
+    </body>
+</html>
