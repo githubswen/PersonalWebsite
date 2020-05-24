@@ -34,3 +34,7 @@ body {
 a.active{
   border-bottom: 3px solid red;
 }
+
+li {
+  font-family: "Lucida Console", Courier, monospace;
+}
