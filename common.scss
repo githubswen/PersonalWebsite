@@ -39,3 +39,7 @@ div > a {
 li {
   font-family: $font_family;
 }
+
+a.active{
+  border-bottom: 3px solid red;
+}

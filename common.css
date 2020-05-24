@@ -31,4 +31,8 @@ li {
   font-family: "Lucida Console", Courier, monospace;
 }
 
+a.active {
+  border-bottom: 3px solid red;
+}
+
 /*# sourceMappingURL=common.css.map */
