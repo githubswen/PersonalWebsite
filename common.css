@@ -1,4 +1,4 @@
-#imgtop, h1, #h1top {
+h1, #h1top {
   text-align: center;
 }
 
@@ -6,8 +6,8 @@
   padding-top: 20px;
 }
 
-#imgtop {
-  display: flex;
+.imgtop {
+  display: block;
   padding-top: 80px;
 }
 

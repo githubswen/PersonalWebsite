@@ -12,9 +12,8 @@ h1 {
   @extend %align_center;
 }
 
-#imgtop {
-  @extend %align_center;
-  display: flex;
+.imgtop {
+  display: block;
   padding-top: 80px;
 }
 
