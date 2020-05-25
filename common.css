@@ -7,6 +7,7 @@
 }
 
 #imgtop {
+  display: flex;
   padding-top: 80px;
 }
 
@@ -17,7 +18,7 @@ div > p {
 }
 
 body {
-  background-color: lightblue;
+  background-color: darkblue;
 }
 
 div > a a:active {
