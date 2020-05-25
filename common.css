@@ -7,7 +7,7 @@ h1, #h1top {
 }
 
 .imgtop {
-  display: block;
+  display: flex;
   padding-top: 80px;
 }
 
