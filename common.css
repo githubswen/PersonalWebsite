@@ -9,8 +9,8 @@ h1, #h1top {
 .imgtop {
   display: block;
   padding-top: 80px;
-  width: auto;
   height: auto;
+  width: auto;
 }
 
 div > p {
